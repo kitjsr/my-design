@@ -1,0 +1,120 @@
+/* Gallery */
+.galleryarea{
+    background-color: #fff;
+}
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+.card{
+    margin-top: 200px!important;
+    width:400px;
+    margin: auto;
+    height: 400px;
+    position: relative;
+    transition: transform 4s ease-in;
+    overflow: hidden;
+    border:4px solid #fff;
+
+}
+img{
+    width:100%;
+    height: 400px;
+    transition: transform 1s ease-in;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.card:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    content: "Yeah!";
+    transform:translateY(-100%);
+    font-size: 25px;
+    color:#fff;
+   display: block;
+    background-color: rgba(188, 143, 143, 0.137);
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   font-family: sans-serif;
+    transition: transform .4s ease-in;
+    border:4px solid white;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.card:after {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    content: "Yeah!";
+    transform:translateY(100%);
+    font-size: 25px;
+    color:#fff;
+   display: block;
+    background-color: rgba(188, 143, 143, 0.137);
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   font-family: sans-serif;
+    transition: transform .4s ease-in;
+    border:4px solid white;
+    justify-content: center;
+    box-sizing: border-box;
+}
+ .card:hover::before{
+ transform: translateY(0%); 
+ 
+}
+.card:hover::after{
+    transform: translateY(0%); 
+    
+   }
+  
+   #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(238, 11, 11); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+    text-shadow: 4px 0px 3px rgba(209, 194, 194, 0.66);
+    
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }

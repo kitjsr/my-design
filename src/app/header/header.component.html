@@ -1,0 +1,61 @@
+<header class="toparea">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-12">
+                <div class="logoarea">
+                    <img src="../../assets/logo1.png">
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="menuarea">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-navbar">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+                          <span class="fa fa-bars"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" routerLink="/" routerLinkActive="active">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" routerLink="/about" routerLinkActive="active">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" routerLink="/service" routerLinkActive="active">SERVICES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" routerLink="/gallery" routerLinkActive="active">GALLERY</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" routerLink="/contact" routerLinkActive="active">CONTACT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" routerLink="/testing" routerLinkActive="active">TEST</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <div class="getstartarea" *ngIf="status==true; else jsr">
+                    <a class="btn" href="#">Login </a>
+                </div>
+                <ng-template #jsr>
+                    <a class="btn" href="#">Logout</a>
+                </ng-template>
+
+                <div class="getstartarea" *ngIf="value>=100; then tjsr; else ejsr">
+                    <!-- <a class="btn" href="#">{{value}}</a> -->
+                </div>
+                <ng-template #tjsr>
+                    <a class="btn" href="#">{{value*5}}</a>
+                </ng-template>
+                <ng-template #ejsr>
+                    <a class="btn" href="#">{{value*5}}</a>
+                </ng-template>
+
+            </div>
+        </div>
+    </div>
+</header>

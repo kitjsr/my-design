@@ -1,0 +1,64 @@
+/* header */
+.toparea{
+    box-shadow: 0 4px 9px -4px rgb(0 0 0 / 35%);
+  }
+.logoarea {
+    text-align: center; 
+
+  }
+  .logoarea img {
+    width: 100px;
+    height: 100px;
+  } 
+.menuarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center; 
+
+  }
+  .nav-link {
+    /* color: rgb(255, 255, 255) !important; */
+    color: rgba(238,11,11) !important;
+    font-size: 20px !important;
+    padding: 0 20px !important;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    /* color: rgb(31, 29, 29) !important; */
+    /* text-shadow: 4px 0px 3px rgba(92, 88, 88, 0.66) !important; */
+  }
+  .nav-item hr{ 
+    height: 5px;
+    width: 0%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 1);
+    border: 0;
+    }
+    .nav-item:hover hr{ 
+      height: 5px;
+      width: 100%;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+      background-color: rgba(255, 255, 255, 1);
+      border: 0;
+      }
+.getstartarea {
+        margin-top: 30px;
+        text-align: center; 
+      }
+    .btn{
+      background-color: rgba(238, 11, 11);
+      color: #fff;
+        text-transform: uppercase;
+        vertical-align: bottom;
+        border: 0;
+        box-shadow: 0 4px 9px -4px rgb(0 0 0 / 35%);
+        font-weight: 500;
+        padding: 0.625rem 1.5rem 0.5rem;
+        font-size: .75rem;
+        line-height: 1.5;
+        }

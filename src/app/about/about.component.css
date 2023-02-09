@@ -1,0 +1,117 @@
+/*whoweare  */
+.whoweare{
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.whoweare p{
+    font-size: 90px ;
+    color: rgb(233, 26, 26);
+    font-family: 'Grand Hotel', cursive;
+    color: transparent;
+    background: #e81111;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(243, 10, 10, 0.5);
+    }
+
+.imagearea{
+    background-color: #E8E9ED;
+    text-align: center;
+}
+.imagearea  img{
+    width: 500px;
+    
+    box-shadow: 0 4px 9px -4px rgb(0 0 0 / 50%);
+    
+}
+.imagearea  h6 {
+    margin-bottom: 15px;
+    color: black;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* coreimgarea */
+.coreimgarea{
+    text-align: center;
+    padding: 20px;
+    }
+.coreimgarea img{
+    height: 200px;
+    border-radius: 50%;
+  }
+  .coreimgarea h3{
+    font-size: 35px ;
+    color: rgb(233, 26, 26);
+    font-family: 'Grand Hotel', cursive;
+    color: transparent;
+    background: #e81111;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(243, 10, 10, 0.5);
+    }
+  
+/* seventharea */
+.seventharea{
+    background-color: #E8E9ED;
+    padding-top: 0;
+  }
+  .seventharea h1{
+    font-size: 30px;
+    font-family: 'Michroma', sans-seri;
+    color: black;
+    text-align: center;
+  }
+  
+  @keyframes notice{
+    0%{
+        letter-spacing: 20px;
+        text-shadow: 10px 10px 10px black;
+    }
+    100%{
+        letter-spacing: 0px;
+  
+    }
+  }
+  .seventharea h1{
+    animation-name: notice;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .testzone{
+    font-size:50px;
+    color:rgba(238, 11, 11);
+    font-family: 'Michroma', sans-seri !important;
+    text-align: center;
+  }
+  #testimonials .card {
+    border: 0;
+  }
+  
+  .card {
+    background-color: #E8E9ED;
+    width:100%;
+  }
+  .card text p{
+    text-align: justify;
+  }
+  
+  .card img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 9rem;
+    max-height: 9rem;
+    margin: 0 auto;
+  }
+  
+  ._tm-user-role {
+    font-weight: bold;
+  }
+  
+  ._tm-header {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
