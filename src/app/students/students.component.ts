@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import studentsData from '../../students.json';  
-import employeesData from '../../employees.json';  
+import employeesData from '../../employees.json'; 
+import myData from './data.json';  
 
 interface Student {  
   id: Number;  
@@ -24,4 +25,5 @@ interface Employee{
 export class StudentsComponent {
   students: Student[] = studentsData;
   employees: Employee[] = employeesData;
+  mydatas: any = myData;
 }

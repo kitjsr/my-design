@@ -29,7 +29,10 @@ import { ImageCropperModule } from 'ngx-image-cropper';
 import { AlertboxComponent } from './alertbox/alertbox.component';
 import { RatingComponent } from './rating/rating.component';
 import { StudentsComponent } from './students/students.component';
-
+import { FetchdataComponent } from './fetchdata/fetchdata.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ContactformComponent } from './contactform/contactform.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -56,6 +59,8 @@ import { StudentsComponent } from './students/students.component';
     AlertboxComponent,
     RatingComponent,
     StudentsComponent,
+    FetchdataComponent,
+    ContactformComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,7 +71,9 @@ import { StudentsComponent } from './students/students.component';
     PdfViewerModule,
     DataTablesModule,
     ImageCropperModule,
-    NgbRatingModule
+    NgbRatingModule,
+    HttpClientModule,
+    FormsModule, ReactiveFormsModule
     
   ],
   providers: [],

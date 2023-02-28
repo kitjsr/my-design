@@ -31,6 +31,12 @@
         <td>{{ data.firstName }}</td>  
         <td> </td>  
         <td><img src="{{ data.photo }}" /></td>  
+      </tr> 
+      <tr *ngFor="let d of mydatas.current.mechanical">  
+        <td>{{ d.id }}</td>  
+        <td>{{ d.BoardRoll }}</td>  
+        <td>{{ d.Name }}</td>  
+        <td>{{ d.Company }}</td>    
       </tr>  
     </tbody>  
   </table> 
